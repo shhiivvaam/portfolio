@@ -7,7 +7,7 @@
 
   <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
 
-  <a href="https://twitter.com/intent/follow?screen_name=hunchodotdev">
+  <a href="https://twitter.com/intent/follow?screen_name=shhiivvaam">
     <img src="https://img.shields.io/twitter/follow/hunchodotdev?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @shhiivvaam" />
   </a>
 </p>
