@@ -1,8 +1,11 @@
 {
+  "homepage": "https://github.com/shhiivvaam/portfolio.git",
   "name": "shhiivvaam-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,6 +18,7 @@
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "framer-motion": "^10.12.17",
+    "gh-pages": "^5.0.0",
     "next": "13.4.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
