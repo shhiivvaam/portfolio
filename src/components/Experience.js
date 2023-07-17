@@ -61,6 +61,14 @@ const Experience = () => {
                         work="Worked under a team that was focused on developing new features,
                         enhancing accuracy, improving UI transition speeds, and enhancing the existing UI design."
                     />
+                    <Details
+                        position="Android/ios and Web Developer Intern"
+                        company="Netcamp Solutions Pvt. Ltd."
+                        time="April - 2022 -> July - 2022"
+                        address="KolKatta 700029 IN"
+                        work="Worked under a team that was focused on developing new features,
+                        enhancing accuracy, improving UI transition speeds, and enhancing the existing UI design."
+                    />
                 </ul>
             </div>
         </div>
