@@ -24,24 +24,20 @@ const About = () => {
             <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Discipline Dedication!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+                    <AnimatedText text="Discipline | Efforts" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>
                                 About Me!
                             </h2>
-                            <p className='font-medium text-center'>- Hi, I'm Shivam Kumar, a Web Developer, Android/ios Appplication Developer and Data Analyst.
+                            <p className='font-medium text-center'>- Hi, I'm Shivam Kumar, a MERN Stack Dev, Android/ios Application Dev and Data Analyst.
                             </p>
-                            <p className='my-4 font-medium'>- Web Dev is my passion and field of Interest with an aim for creating beautiful, functional,
-                                and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my visions to reality.
+                            <p className='my-4 font-medium'>- Striver✨</p>
+                            <p className='my-4 font-medium'>- Pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
                             </p>
-                            {/* <p className='my-4 font-medium'>- I believe that design is about more than just making things look pretty – it's about solving problems and
-                                creating intuitive, enjoyable experiences for users.
-                            </p> */}
-                            <p className='font-medium'>- Whether I'm working on a website, mobile app, or
-                                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                            <p className='my-4 font-medium'>- Challenges excite me, and I am always in awe of the change they drive in the world. Some of the skills I have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
+                            </p>
+                            <p className='font-medium'>- Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max w-full rounded-2xl border-2 border-solid border-dark bg-light p-8

@@ -1,7 +1,7 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image';
-import profilePic from '/public/images/profile/developer-pic-1.png'
+import profilePic from '/public/images/profile/toon1-t.jpeg'
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
@@ -19,10 +19,10 @@ export default function Home() {
       <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
-          <div className='flex items-center justify-between w-full lg:flex-col'>
+          <div className='flex items-center justify-between w-full lg:flex-col gap-5'>
             <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="shhiivvaam"
-                className="w-full h-auto lg:hidden md:inline-block md:w-full "
+                className="w-full h-auto pb-3 lg:hidden rounded-full md:inline-block md:w-full "
                 priority
                 sizes='(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 50vw'
@@ -32,7 +32,7 @@ export default function Home() {
               <AnimatedText text="MERN DEV" className='!text-5xl text-left
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
-              <AnimatedText text="UI/UX DESIGN ✨" className='!text-5xl text-left
+              <AnimatedText text="UI DESIGN✨" className='!text-5xl text-left
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
               <AnimatedText text="Web Dev | Androi/ios Dev | Data Analyst | Java/python" 
@@ -68,9 +68,9 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe/>
+        {/* <HireMe/> */}
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt="shhiivvaam" className='w-[80%] h-auto' />
+          <Image src={lightBulb} alt="shhiivvaam" className='w-[80%] pl-2 h-auto' />
         </div>
       </main>
     </>
