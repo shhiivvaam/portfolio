@@ -1,0 +1,171 @@
+                    <Details
+                        type="ESG Virtual Experience Program"
+                        time="July 2023"
+                        place="Tata Consultancy Services[TCS]"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Google Cloud Big Data and Machine Learning Fundamentals"
+                        time="June 2023"
+                        place="Coursera"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Introduction to Android Development"
+                        time="June 2023"
+                        place="Skillsoft | Infosys"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Microsoft Azure DevOps"
+                        time="June 2023"
+                        place="Coursera"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Java Programming"
+                        time="June 2022"
+                        place="Coding Ninjas"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Mastering In Python Libraries For Machine Learning, Data Science And Image Processing "
+                        time="JUN 2022"
+                        place="GLA UNIVERSITY"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Android Development"
+                        time="April 2022"
+                        place="Netcamp Solutions"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Web Development"
+                        time="April 2022"
+                        place="Netcamp Solutions"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <Details
+                        type="Web Development"
+                        time="April 2022"
+                        place="Netcamp Solutions"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Android Development"
+                        time="April 2022"
+                        place="Netcamp Solutions"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Mastering In Python Libraries For Machine Learning, Data Science And Image Processing "
+                        time="JUN 2022"
+                        place="GLA UNIVERSITY"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Java Programming"
+                        time="June 2022"
+                        place="Coding Ninjas"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Microsoft Azure DevOps"
+                        time="June 2023"
+                        place="Coursera"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Introduction to Android Development"
+                        time="June 2023"
+                        place="Skillsoft | Infosys"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="Google Cloud Big Data and Machine Learning Fundamentals"
+                        time="June 2023"
+                        place="Coursera"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+                    <Details
+                        type="ESG Virtual Experience Program"
+                        time="July 2023"
+                        place="Tata Consultancy Services[TCS]"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        and Artificial Intelligence & Machine Learning."
+                    />
+
+
+
+
+
+<Project
+                                title="Todos(Diary) App"
+                                img={project1}
+                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
+                                link="https://shhiivvaam.github.io/crud-react-app/"
+                                github="https://github.com/shhiivvaam/crud-react-app.git"
+                                type="Featured Project"
+                            />
+
+
+
+<div className='col-span-12'>
+                            <FeaturedProject
+                                title="Robo Users"
+                                img={project1}
+                                summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
+                                The dynamics of React can be very well understood by this."
+                                link="https://shhiivvaam.github.io/robot-friends/"
+                                github="https://github.com/shhiivvaam/robot-friends.git"
+                                type="Featured Project"
+                            />
+                        </div>

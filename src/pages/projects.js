@@ -5,7 +5,9 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons';
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project2 from '../../public/images/projects/chat-app.png';
+import project3 from '../../public/images/projects/todos-app.png';
+import project4 from '../../public/images/projects/robo-app.png';
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from 'framer-motion'
 
@@ -106,62 +108,43 @@ const projects = () => {
                     <AnimatedText text="IMAGINATION EFFORTS | TIME!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl' />
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
-                            <FeaturedProject
+                            {/* <FeaturedProject
                                 title="Behance | Portfolio"
-                                img={project1}
-                                summary="Add the Summary here"
-                                link="/"
-                                github="/"
+                                img={project2}
+                                summary="Portfolio Website"
+                                link="https://shhiivvaam.github.io/portfolio"
+                                github="https://github.com/shhiivvaam/portfolio.git"
+                                type="Featured Project"
+                            /> */}
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={project2}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Behance | Portfolio"
-                                img={project1}
-                                // summary="Add the Summary here"
-                                link="/"
-                                github="/"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Behance | Portfolio"
-                                img={project1}
-                                // summary="Add the Summary here"
-                                link="/"
-                                github="/"
+                                title="Todos(Diary) App"
+                                img={project3}
+                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
+                                link="https://shhiivvaam.github.io/crud-react-app/"
+                                github="https://github.com/shhiivvaam/crud-react-app.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Behance | Portfolio"
-                                img={project1}
-                                summary="Add the Summary here"
-                                link="/"
-                                github="/"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Behance | Portfolio"
-                                img={project1}
-                                // summary="Add the Summary here"
-                                link="/"
-                                github="/"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Behance | Portfolio"
-                                img={project1}
-                                // summary="Add the Summary here"
-                                link="/"
-                                github="/"
+                                title="Robo Users"
+                                img={project4}
+                                summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
+                                The dynamics of React can be very well understood by this."
+                                link="https://shhiivvaam.github.io/robot-friends/"
+                                github="https://github.com/shhiivvaam/robot-friends.git"
                                 type="Featured Project"
                             />
                         </div>
