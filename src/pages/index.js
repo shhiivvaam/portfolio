@@ -29,15 +29,18 @@ export default function Home() {
               />
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
-              <AnimatedText text="Developer | Analyst" className='!text-5xl text-left
-                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl
-              ' />
-              <AnimatedText className='my-4 text-base font-semibold md:text-sm sm:text-xs'
-                text="Web Dev | Androi/ios Dev | Data Analyst | Java/python "
+              <AnimatedText text="MERN DEV" className='!text-5xl text-left
+                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
-              <p className='my-4 text-center text-base font-semibold md:text-sm sm:text-xs'>As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                <br /> Explore my latest projects, showcasing my expertise in React.js and web development.
-              </p>
+              <AnimatedText text="UI/UX DESIGN ✨" className='!text-5xl text-left
+                xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
+              />
+              <AnimatedText text="Web Dev | Androi/ios Dev | Data Analyst | Java/python" 
+                className='my-5 text-base font-semibold md:text-sm sm:text-xs'
+              />
+                {/* <p className='my-4 text-center text-base font-semibold md:text-sm sm:text-xs'> Some of the skills I   have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
+                Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
+              </p> */}
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
                   href="/Shivam_resume.pdf"
@@ -57,7 +60,7 @@ export default function Home() {
                 <Link
                   href="mailto:life.shivam2394@gmail.com"
                   target={"_blank"}
-                  className='ml-9 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base'
+                  className='ml-9 text-lg font-medium font-mono  capitalize text-dark underline dark:text-light md:text-base'
                 >
                   Contact
                 </Link>
@@ -65,9 +68,9 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <HireMe />
+        <HireMe/>
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
-          <Image src={lightBulb} alt="shhiivvaam" className='w-full h-auto' />
+          <Image src={lightBulb} alt="shhiivvaam" className='w-[80%] h-auto' />
         </div>
       </main>
     </>

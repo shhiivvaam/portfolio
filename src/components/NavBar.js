@@ -123,7 +123,7 @@ const NavBar = () => {
                     </motion.a>
                     <button
                         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`ml-3 flex items-center justify-center rounded-full p-1
+                        className={`ml-5 flex items-center justify-center rounded-full p-1
                         ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
                     `}
                     >
@@ -219,9 +219,9 @@ const NavBar = () => {
                     null
             }
 
-            <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
+            {/* <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
-            </div>
+            </div> */}
 
         </header>
     );

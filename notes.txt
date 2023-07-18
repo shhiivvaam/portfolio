@@ -169,3 +169,13 @@
                                 type="Featured Project"
                             />
                         </div>
+
+
+
+
+As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
+                <br /> Explore my latest projects, showcasing my expertise in React.js and web development.
+
+
+
+

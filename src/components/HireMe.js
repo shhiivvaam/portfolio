@@ -18,7 +18,7 @@ const HireMe = () => {
                 
                 md:w-12 md:h-12 md:text-[10px]
                 '>
-                    Hire Me
+                    Solicit✨
                 </Link>
             </div>
         </div>
