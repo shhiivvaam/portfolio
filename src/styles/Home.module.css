@@ -1,3 +1,6 @@
+/* background: rgb(213,88,47);
+background: linear-gradient(90deg, rgba(213,88,47,1) 0%, rgba(121,9,91,1) 48%, rgba(20,9,131,1) 100%); */
+
 .main {
   display: flex;
   flex-direction: column;

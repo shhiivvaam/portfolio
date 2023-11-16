@@ -24,20 +24,28 @@ const About = () => {
             <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Discipline | Efforts" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
+                    <AnimatedText 
+                    text="Discipline | Efforts" 
+                    className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>
                                 About Me!
                             </h2>
-                            <p className='font-medium text-center'>- Hi, I'm Shivam Kumar, a MERN Stack Dev, Android/ios Application Dev and Data Analyst.
+                            <p className='font-medium text-center'>
+                                - Hii !🫡 6feet tall explorer here. Nice to meet you.....🙏🤞 
                             </p>
-                            <p className='my-4 font-medium'>- Striver✨</p>
-                            <p className='my-4 font-medium'>- Pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
+                            <p className='my-4 font-medium'>
+                                - Striver✨
                             </p>
-                            <p className='my-4 font-medium'>- Challenges excite me, and I am always in awe of the change they drive in the world. Some of the skills I have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
+                            <p className='my-4 font-medium'>
+                                - Pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
                             </p>
-                            <p className='font-medium'>- Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
+                            <p className='my-4 font-medium'>
+                                - Challenges excite me, and I am always in awe of the change they drive in the world. Some of the skills I have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
+                            </p>
+                            <p className='font-medium'>
+                                - Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max w-full rounded-2xl border-2 border-solid border-dark bg-light p-8
