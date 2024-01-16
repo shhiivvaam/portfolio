@@ -51,60 +51,71 @@ const Certifications = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        type="ESG Virtual Experience Program"
-                        time="July 2023"
-                        place="Tata Consultancy Services[TCS]"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        type="Micro Experience Program for Operations Analyst"
+                        time="Nov 2023"
+                        place="bluetick.ai"
+                        // info="Micro Experience Certification for Operation Analysis"
                     />
+                    <Details
+                        type="Data Visualisation: Empowering Business with Effective Insights"
+                        time="Aug 2023"
+                        place="Forage"
+                        // info="Micro Experience Certification for Operation Analysis"
+                    />
+                    <Details
+                        type="ESG Virtual Experience Program"
+                        time="Jul 2023"
+                        place="Tata Consultancy Services [TCS]"
+                        // info="""
+                    />
+
                     <Details
                         type="Google Cloud Big Data and Machine Learning Fundamentals"
                         time="June 2023"
                         place="Coursera"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info=""
                     />
                     <Details
                         type="Introduction to Android Development"
                         time="June 2023"
                         place="Skillsoft | Infosys"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                     <Details
                         type="Microsoft Azure DevOps"
                         time="June 2023"
                         place="Coursera"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                     <Details
                         type="Java Programming"
                         time="June 2022"
                         place="Coding Ninjas"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                     <Details
                         type="Mastering In Python Libraries For Machine Learning, Data Science And Image Processing "
                         time="JUN 2022"
                         place="GLA UNIVERSITY"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                     <Details
                         type="Android Development"
                         time="April 2022"
                         place="Netcamp Solutions"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                     <Details
                         type="Web Development"
                         time="April 2022"
                         place="Netcamp Solutions"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        // info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
+                        // and Artificial Intelligence & Machine Learning."
                     />
                 </ul>
             </div>

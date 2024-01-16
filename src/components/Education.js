@@ -55,8 +55,14 @@ const Education = () => {
                         time="2021-2025"
                         place="GLA University"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, 
-                        and Artificial Intelligence & Machine Learning."
+                        ,Artificial Intelligence & Machine Learning, Neural Networks and Deep Learning."
                     />
+                    {/* <Details
+                        type="High School"
+                        time="...2021"
+                        place="Delhi Public School"
+                        info=""
+                    /> */}
                 </ul>
             </div>
         </div>

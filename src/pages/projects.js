@@ -5,11 +5,30 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons';
-import project2 from '../../public/images/projects/chat-app.png';
-import project3 from '../../public/images/projects/todos-app.png';
-import project4 from '../../public/images/projects/robo-app.png';
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from 'framer-motion'
+
+import StudyNotion from '../../public/images/projects/StudyNotion.png';
+import akhilyaveda from '../../public/images/projects/akhilyaveda.png';
+import RandomGIFgenerator from '../../public/images/projects/RandomGIFgenerator.png';
+import FaceRecognition from '../../public/images/projects/FaceRecognition.png';
+import WeatherApplication from '../../public/images/projects/weatherApplication.png';
+import TickTacToe from '../../public/images/projects/TickTacToe.png';
+import passwordGenerator from '../../public/images/projects/passwordGenerator.png';
+import shoppingCart from '../../public/images/projects/shoppingCart.png';
+import ecommerce from '../../public/images/projects/ecommerce.png';
+import robo from '../../public/images/projects/robo-app.png';
+import chat from '../../public/images/projects/chat-app.png';
+import todo from '../../public/images/projects/todos-app.png';
+import facebookclone from '../../public/images/projects/facebook_clone.png';
+import glass_portfolio from '../../public/images/projects/glassPortfolio.png';
+import imageGallery from '../../public/images/projects/imageGallery.png';
+import parallexSite from '../../public/images/projects/parallexSite.png';
+import profileShare from '../../public/images/projects/profileShare.png';
+import sample_portfolio from '../../public/images/projects/simple_portfolio.png';
+import TopCourses from '../../public/images/projects/TopCourses.png';
+import TourismPlanner from '../../public/images/projects/tourismPlanner.png';
+import WindowsArea from '../../public/images/projects/WindowsArea.png';
 
 
 const FramerImage = motion(Image);
@@ -109,19 +128,29 @@ const projects = () => {
                     {/* <AnimatedText text="" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl' /> */}
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
-                            {/* <FeaturedProject
-                                title="Behance | Portfolio"
-                                img={project2}
-                                summary="Portfolio Website"
-                                link="https://shhiivvaam.github.io/portfolio"
-                                github="https://github.com/shhiivvaam/portfolio.git"
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={akhilyaveda}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
                                 type="Featured Project"
-                            /> */}
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={StudyNotion}
+                                summary="EdTech Application -> that serves for online courses selling platform like Udemy and Coursera, this also allows Instructors and Students to enroll themselves, learn and introduce their course respectively. 💀✅"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Chat-App"
-                                img={project2}
+                                img={chat}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
                                 link="https://shhiivvaam.github.io/chat-app-highthackers/"
                                 github="https://github.com/shhiivvaam/chat-app-highthackers.git"
@@ -131,7 +160,7 @@ const projects = () => {
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Todos(Diary) App"
-                                img={project3}
+                                img={todo}
                                 summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
                                 link="https://shhiivvaam.github.io/crud-react-app/"
                                 github="https://github.com/shhiivvaam/crud-react-app.git"
@@ -141,11 +170,171 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="Robo Users"
-                                img={project4}
+                                img={robo}
                                 summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
                                 The dynamics of React can be very well understood by this."
                                 link="https://shhiivvaam.github.io/robot-friends/"
                                 github="https://github.com/shhiivvaam/robot-friends.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={facebookclone}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={passwordGenerator}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={glass_portfolio}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={imageGallery}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={TickTacToe}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={parallexSite}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={profileShare}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={WeatherApplication}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={sample_portfolio}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={TopCourses}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={FaceRecognition}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={TourismPlanner}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Chat-App"
+                                img={WindowsArea}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={ecommerce}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={shoppingCart}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="EdTech Platform"
+                                img={RandomGIFgenerator}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
                                 type="Featured Project"
                             />
                         </div>

@@ -23,7 +23,7 @@ export default function Home() {
           <div className='flex items-center justify-between w-full lg:flex-col gap-5'>
             <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="shhiivvaam"
-                className="w-full h-auto pb-3 lg:hidden rounded-full md:inline-block md:w-full "
+                className="w-full h-auto pb-3 rounded-full md:inline-block md:w-full "
                 priority
                 sizes='(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 50vw'

@@ -43,18 +43,26 @@ const Skills = () => {
                     ?
                 </motion.div>
 
-                <Skill name="Tableau" x="-25vw" y="2vw" />
+                <Skill name="Tableau" x="-25vw" y="-2vw" />
+                <Skill name="TensorFlow" x="-10vw" y="18vw" />
+                <Skill name="Sk Learn" x="-0vw" y="25vw" />
+                <Skill name="Open CV" x="-21vw" y="7vw" />
                 <Skill name="Flutter" x="-5vw" y="-10vw" />
                 <Skill name="SQL" x="20vw" y="6vw" />
                 <Skill name="ReactJS" x="0vw" y="12vw" />
+                <Skill name="Redux" x="10vw" y="12vw" />
+                <Skill name="Git" x="20vw" y="12vw" />
                 <Skill name="NextJs" x="-20vw" y="-15vw" />
                 <Skill name="ExpressJS" x="15vw" y="-12vw" />
                 <Skill name="NodeJs" x="32vw" y="-5vw" />
+                <Skill name="Mongo DB" x="32vw" y="-5vw" />
                 <Skill name="Figma" x="0vw" y="-20vw" />
                 <Skill name="Firebase" x="-25vw" y="18vw" />
-                <Skill name="Tailwind CSS" x="18vw" y="18vw" />
-
-
+                <Skill name="Tailwind CSS" x="35vw" y="11vw" />
+                <Skill name="JAVA" x="15vw" y="1vw" />
+                <Skill name="C++" x="28vw" y="18vw" />
+                <Skill name="Python" x="11vw" y="18vw" />
+                <Skill name="Linux" x="27vw" y="18vw" />
             </div>
         </>
     )
