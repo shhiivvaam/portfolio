@@ -8,6 +8,7 @@ import { GithubIcon } from '@/components/Icons';
 import TransitionEffect from '@/components/TransitionEffect'
 import { motion } from 'framer-motion'
 
+// Project Pics 
 import StudyNotion from '../../public/images/projects/StudyNotion.png';
 import akhilyaveda from '../../public/images/projects/akhilyaveda.png';
 import RandomGIFgenerator from '../../public/images/projects/RandomGIFgenerator.png';
@@ -130,16 +131,6 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="EdTech Platform"
-                                img={akhilyaveda}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                title="EdTech Platform"
                                 img={StudyNotion}
                                 summary="EdTech Application -> that serves for online courses selling platform like Udemy and Coursera, this also allows Instructors and Students to enroll themselves, learn and introduce their course respectively. 💀✅"
                                 link="https://shhiivvaam.github.io/EdTech-Platform"
@@ -147,13 +138,23 @@ const projects = () => {
                                 type="Featured Project"
                             />
                         </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="AkhilyaVeda"
+                                img={akhilyaveda}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/akhilyaVeda"
+                                github="https://github.com/AkhilyaVeda/akhilyaVeda"
+                                type="Featured Project"
+                            />
+                        </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
-                                img={chat}
+                                title="Facebook Clone"
+                                img={facebookclone}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Facebook-Clone/"
+                                github="https://github.com/shhiivvaam/Facebook-Clone.git"
                                 type="Featured Project"
                             />
                         </div>
@@ -169,6 +170,16 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
+                                title="Chat-App"
+                                img={chat}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
+                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
                                 title="Robo Users"
                                 img={robo}
                                 summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
@@ -178,109 +189,99 @@ const projects = () => {
                                 type="Featured Project"
                             />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Chat-App"
-                                img={facebookclone}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
-                                type="Featured Project"
-                            />
-                        </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Password Generator"
                                 img={passwordGenerator}
                                 summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                link="https://shhiivvaam.github.io/Password-Generator/"
+                                github="https://github.com/shhiivvaam/Password-Generator.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Glass Portfolio"
                                 img={glass_portfolio}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Portfolio--Glass-Website/"
+                                github="https://github.com/shhiivvaam/Portfolio--Glass-Website.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Image Gallery"
                                 img={imageGallery}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Image-Gallery/"
+                                github="https://github.com/shhiivvaam/Image-Gallery.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
-                            <FeaturedProject
-                                title="EdTech Platform"
+                            <Project
+                                title="Tick Tac Toe"
                                 img={TickTacToe}
                                 summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
-                                type="Featured Project"
+                                link="https://shhiivvaam.github.io/Tic-Tac-Toe/"
+                                github="https://github.com/shhiivvaam/Tic-Tac-Toe.git"
+                                type="Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Parralex 3D effects Site"
                                 img={parallexSite}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Parrallex-Effect-Page/"
+                                github="https://github.com/shhiivvaam/Parrallex-Effect-Page.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Profile Share"
                                 img={profileShare}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Profile-Share/"
+                                github="https://github.com/shhiivvaam/Profile-Share.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Weather Application"
                                 img={WeatherApplication}
                                 summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                link="https://shhiivvaam.github.io/Weather-Application/"
+                                github="https://github.com/shhiivvaam/Weather-Application.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Behance - Portfli"
                                 img={sample_portfolio}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Poject-Behance/"
+                                github="https://github.com/shhiivvaam/Poject-Behance.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Top Courses"
                                 img={TopCourses}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Top-Courses/"
+                                github="https://github.com/shhiivvaam/Top-Courses.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Face Recognition "
                                 img={FaceRecognition}
                                 summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
                                 link="https://shhiivvaam.github.io/EdTech-Platform"
@@ -290,51 +291,51 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Tourism Planner"
                                 img={TourismPlanner}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Tour-Places/"
+                                github="https://github.com/shhiivvaam/Tour-Places.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Chat-App"
+                                title="Windows Area Finder"
                                 img={WindowsArea}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/chat-app-highthackers/"
-                                github="https://github.com/shhiivvaam/chat-app-highthackers.git"
+                                link="https://shhiivvaam.github.io/Windows-Area/"
+                                github="https://github.com/shhiivvaam/Windows-Area.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Ecommerce Application"
                                 img={ecommerce}
                                 summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                link="https://github.com/shhiivvaam/E-Commerce-Application.git"
+                                github="https://github.com/shhiivvaam/E-Commerce-Application.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Shopping Cart"
                                 img={shoppingCart}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                summary=""
+                                link="https://shhiivvaam.github.io/Shopping-Cart/"
+                                github="https://github.com/shhiivvaam/Shopping-Cart.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="EdTech Platform"
+                                title="Random GIF Generator"
                                 img={RandomGIFgenerator}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://github.com/shhiivvaam/EdTech-Platform.git"
+                                summary="Web based Application that generates both Random and User required GIFs"
+                                link="https://shhiivvaam.github.io/Random-Gif-Generator/"
+                                github="hhttps://github.com/shhiivvaam/Random-Gif-Generator.git"
                                 type="Featured Project"
                             />
                         </div>
