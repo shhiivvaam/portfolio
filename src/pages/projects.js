@@ -48,7 +48,10 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                 target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
             >
-                <FramerImage src={img} alt={title} className='w-full h-auto'
+                <FramerImage src={img}
+                    alt={title}
+                    priority={true}
+                    className='w-full h-auto'
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                     sizes='(max-width: 768px) 100vw,
@@ -89,7 +92,10 @@ const Project = ({ title, type, img, link, github }) => {
                 target='_blank'
                 className='w-full cursor-pointer overflow-hidden rounded-lg'
             >
-                <FramerImage src={img} alt={title} className='w-full h-auto'
+                <FramerImage
+                    src={img}
+                    alt={title}
+                    className='w-full h-auto'
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
                 />

@@ -21,6 +21,8 @@
     "framer-motion": "^10.12.17",
     "gh-pages": "^5.0.0",
     "next": "13.4.7",
+    "particles.js": "^2.0.0",
+    "particlesjs": "^2.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-particles": "^2.12.2",
