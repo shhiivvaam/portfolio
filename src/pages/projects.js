@@ -50,7 +50,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             >
                 <FramerImage src={img}
                     alt={title}
-                    priority={true}
+                    priority={false}
                     className='w-full h-auto'
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
