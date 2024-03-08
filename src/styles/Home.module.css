@@ -235,7 +235,8 @@ background: linear-gradient(90deg, rgba(213,88,47,1) 0%, rgba(121,9,91,1) 48%, r
       rgba(var(--callout-rgb), 0.5)
     );
     background-clip: padding-box;
-    backdrop-filter: blur(24px);
+    /* TODO: enable this */
+    /* backdrop-filter: blur(24px); */
   }
 
   .description div {
