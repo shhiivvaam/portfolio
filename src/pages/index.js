@@ -36,10 +36,13 @@ export default function Home() {
               <AnimatedText text="Shivam Kumar ✨" className='!text-5xl text-left
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
-              <AnimatedText text="MERN Dev | Flutter | Data Analytics | Java/python/C++" 
+              {/* <AnimatedText text="MERN Dev | Flutter | Data Analytics | Java/python/C++"
+                className='my-5 text-base font-semibold md:text-sm sm:text-xs'
+              /> */}
+              <AnimatedText text="Web Dev | Android/iOS Dev | UI/UX | Problem Solving"
                 className='my-5 text-base font-semibold md:text-sm sm:text-xs'
               />
-                {/* <p className='my-4 text-center text-base font-semibold md:text-sm sm:text-xs'> Some of the skills I   have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
+              {/* <p className='my-4 text-center text-base font-semibold md:text-sm sm:text-xs'> Some of the skills I   have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
                 Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
               </p> */}
               <div className='flex items-center self-start mt-2 lg:self-center'>

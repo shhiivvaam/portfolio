@@ -35,15 +35,46 @@ const Skills = () => {
                 sm:bg-circularLightSm sm:dark:bg-circularDarkSm
                 '>
                 <motion.div
-                    className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer
+                    className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-3 shadow-dark cursor-pointer
                     dark:text-dark dark:bg-light
                     lg:p-6 md:p-4 xs:text-xs xs:p-2'
                     whileHover={{ scale: 1.05 }}
                 >
                     ?
                 </motion.div>
+                {/* Java C/C++ Python JavaScript TypeScript MongoDB ExpressJs ReactJs React-Redux NextJs SQL Flutter Android-Studio NodeJs Redis Kafka WebSockets Docker AWS TailwindCss MaterialUI Firebase Linux Git Figma
+                Tableau TensorFlow Sklearn OpenCV */}
+                <Skill name="Java" x="5vh" y="5vw" />
+                <Skill name="C/C++" x="-5vw" y="-5vw" />
+                <Skill name="Python" x="5vw" y="-5vw" />
+                <Skill name="JavaScript" x="-7vw" y="2vw" />
+                <Skill name="TypeScript" x="9vw" y=".5vw" />
+                <Skill name="MongoDB" x="10vw" y="9vw" />
+                <Skill name="ExpressJs" x="-10vw" y="9vw" />
+                <Skill name="ReactJs" x="-21vw" y="4vw" />
+                <Skill name="NodeJs" x="-23vw" y="-3vw" />
+                <Skill name="React-Redux" x="-15vw" y="-10vw" />
+                <Skill name="NextJs" x="1vw" y="-14vw" />
+                <Skill name="SQL" x="14vw" y="-17vw" />
+                <Skill name="Flutter" x="17vw" y="-10vw" />
+                <Skill name="Android-Studio" x="23vw" y="-3vw" />
+                <Skill name="Redis" x="-17vw" y="15vw" />
+                <Skill name="Kafka" x="-25vw" y="10vw" />
+                <Skill name="WebSockets" x="6vw" y="23vw" />
+                <Skill name="AWS" x="-4vw" y="18vw" />
+                <Skill name="Tailwind Css" x="22vw" y="4vw" />
+                <Skill name="Material UI" x="25vw" y="11vw" />
+                <Skill name="Firebase" x="21vw" y="19vw" />
+                <Skill name="Linux" x="39vw" y="1vw" />
+                <Skill name="Git" x="35vw" y="-10vw" />
+                <Skill name="Figma" x="25vw" y="-18vw" />
+                <Skill name="Tableau" x="-11vw" y="-18vw" />
+                <Skill name="TensorFlow" x="-34vw" y="-12vw" />
+                <Skill name="SkLearn" x="-25vw" y="-18vw" />
+                <Skill name="OpenCV" x="-38vw" y="-4vw" />
+                <Skill name="NLP" x="-37vw" y="3vw" />
 
-                <Skill name="Tableau" x="-25vw" y="-2vw" />
+                {/* <Skill name="Tableau" x="-25vw" y="-2vw" />
                 <Skill name="TensorFlow" x="-10vw" y="18vw" />
                 <Skill name="Sk Learn" x="-0vw" y="25vw" />
                 <Skill name="Open CV" x="-21vw" y="7vw" />
@@ -62,7 +93,7 @@ const Skills = () => {
                 <Skill name="JAVA" x="15vw" y="1vw" />
                 <Skill name="C++" x="28vw" y="18vw" />
                 <Skill name="Python" x="11vw" y="18vw" />
-                <Skill name="Linux" x="27vw" y="18vw" />
+                <Skill name="Linux" x="27vw" y="18vw" /> */}
             </div>
         </>
     )

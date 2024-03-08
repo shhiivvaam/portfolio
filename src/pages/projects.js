@@ -156,21 +156,21 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Facebook Clone"
-                                img={facebookclone}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Facebook-Clone/"
-                                github="https://github.com/shhiivvaam/Facebook-Clone.git"
-                                type="Featured Project"
+                                title="Tick Tac Toe"
+                                img={TickTacToe}
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/Tic-Tac-Toe/"
+                                github="https://github.com/shhiivvaam/Tic-Tac-Toe.git"
+                                type="Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Todos(Diary) App"
-                                img={todo}
-                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
-                                link="https://shhiivvaam.github.io/crud-react-app/"
-                                github="https://github.com/shhiivvaam/crud-react-app.git"
+                                title="Profile Share"
+                                img={profileShare}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/Profile-Share/"
+                                github="https://github.com/shhiivvaam/Profile-Share.git"
                                 type="Featured Project"
                             />
                         </div>
@@ -199,13 +199,13 @@ const projects = () => {
                             <FeaturedProject
                                 title="Password Generator"
                                 img={passwordGenerator}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
                                 link="https://shhiivvaam.github.io/Password-Generator/"
                                 github="https://github.com/shhiivvaam/Password-Generator.git"
                                 type="Featured Project"
                             />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Glass Portfolio"
                                 img={glass_portfolio}
@@ -214,60 +214,20 @@ const projects = () => {
                                 github="https://github.com/shhiivvaam/Portfolio--Glass-Website.git"
                                 type="Featured Project"
                             />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
+                        </div> */}
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Image Gallery"
-                                img={imageGallery}
+                                title="Facebook FrontEnd Clone"
+                                img={facebookclone}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Image-Gallery/"
-                                github="https://github.com/shhiivvaam/Image-Gallery.git"
+                                link="https://shhiivvaam.github.io/Facebook-Clone/"
+                                github="https://github.com/shhiivvaam/Facebook-Clone.git"
                                 type="Featured Project"
                             />
-                        </div>
+                        </div> */}
                         <div className='col-span-12'>
                             <Project
-                                title="Tick Tac Toe"
-                                img={TickTacToe}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/Tic-Tac-Toe/"
-                                github="https://github.com/shhiivvaam/Tic-Tac-Toe.git"
-                                type="Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Parralex 3D effects Site"
-                                img={parallexSite}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Parrallex-Effect-Page/"
-                                github="https://github.com/shhiivvaam/Parrallex-Effect-Page.git"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Profile Share"
-                                img={profileShare}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Profile-Share/"
-                                github="https://github.com/shhiivvaam/Profile-Share.git"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                title="Weather Application"
-                                img={WeatherApplication}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/Weather-Application/"
-                                github="https://github.com/shhiivvaam/Weather-Application.git"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Behance - Portfli"
+                                title="Behance - Portfolio"
                                 img={sample_portfolio}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
                                 link="https://shhiivvaam.github.io/Poject-Behance/"
@@ -277,9 +237,49 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
+                                title="Parralex 3D effects Site"
+                                img={parallexSite}
+                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/Parrallex-Effect-Page/"
+                                github="https://github.com/shhiivvaam/Parrallex-Effect-Page.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Todos(Diary) App"
+                                img={todo}
+                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
+                                link="https://shhiivvaam.github.io/crud-react-app/"
+                                github="https://github.com/shhiivvaam/crud-react-app.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Weather Application"
+                                img={WeatherApplication}
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/Weather-Application/"
+                                github="https://github.com/shhiivvaam/Weather-Application.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Tourism Planner"
+                                img={TourismPlanner}
+                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/Tour-Places/"
+                                github="https://github.com/shhiivvaam/Tour-Places.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
                                 title="Top Courses"
                                 img={TopCourses}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
                                 link="https://shhiivvaam.github.io/Top-Courses/"
                                 github="https://github.com/shhiivvaam/Top-Courses.git"
                                 type="Featured Project"
@@ -289,7 +289,7 @@ const projects = () => {
                             <FeaturedProject
                                 title="Face Recognition "
                                 img={FaceRecognition}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
                                 link="https://shhiivvaam.github.io/EdTech-Platform"
                                 github="https://github.com/shhiivvaam/EdTech-Platform.git"
                                 type="Featured Project"
@@ -297,11 +297,11 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Tourism Planner"
-                                img={TourismPlanner}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Tour-Places/"
-                                github="https://github.com/shhiivvaam/Tour-Places.git"
+                                title="Image Gallery"
+                                img={imageGallery}
+                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/Image-Gallery/"
+                                github="https://github.com/shhiivvaam/Image-Gallery.git"
                                 type="Featured Project"
                             />
                         </div>
@@ -309,7 +309,7 @@ const projects = () => {
                             <Project
                                 title="Windows Area Finder"
                                 img={WindowsArea}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                summary="JavaScript Application that helps know the current screen width and height. It used DOM Structure"
                                 link="https://shhiivvaam.github.io/Windows-Area/"
                                 github="https://github.com/shhiivvaam/Windows-Area.git"
                                 type="Featured Project"
@@ -319,7 +319,7 @@ const projects = () => {
                             <FeaturedProject
                                 title="Ecommerce Application"
                                 img={ecommerce}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
                                 link="https://github.com/shhiivvaam/E-Commerce-Application.git"
                                 github="https://github.com/shhiivvaam/E-Commerce-Application.git"
                                 type="Featured Project"
