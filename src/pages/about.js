@@ -4,8 +4,8 @@ import React from 'react'
 import AnimatedText from '../components/AnimatedText'
 import Layout from '../components/Layout'
 import Image from 'next/image';
-import FirstImage from '../../public/images/profile/first_image.jpg';
-// import SecondImage from '../../public/images/profile/second_image.jpg';
+// import FirstImage from '../../public/images/profile/first_image.jpg';
+import FirstImage from '../../public/images/profile/second_image.jpg';
 // import ThirdImage from '../../public/images/profile/third_image.jpg';
 import AnimatedNumbers from '@/components/AnimatedNumbers';
 import Skills from '@/components/Skills';
@@ -33,20 +33,14 @@ const About = () => {
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>
                                 About Me!
                             </h2>
-                            <p className='font-medium text-center'>
-                                - Hii !🫡 6feet tall explorer here. Nice to meet you.....🙏🤞
-                            </p>
-                            <p className='my-4 font-medium'>
-                                - Striver✨
-                            </p>
                             <p className='my-4 font-medium'>
                                 - Pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
                             </p>
-                            <p className='my-4 font-medium'>
-                                - Challenges excite me, and I am always in awe of the change they drive in the world. Some of the skills I have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.
-                            </p>
                             <p className='font-medium'>
-                                - Outside of tech, I am a lover of Spotify, a runner, an avid actor, and a proud Indian.
+                                - With a strong work ethic and a desire to learn, I am constantly seeking out ways to improve my skills and gain practical experience. Whether it's through internships, extracurricular activities, or networking events, I am committed to making the most of my time as a student and preparing myself for a successful career in the future.
+                            </p>
+                            <p className='my-4 font-medium'>
+                                - Some of the skills I have worked with include Full Stack Web Development,<br /> Mobile Application Development(Flutter/ React-Native), Back-End Engineering,<br /> UI designing, Data Analysis,<br /> Data Structures & Algorithms(Java) <br />and Machine Learning.<br />And whatever skills I may lack, I make up for my determination to learn.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max w-full rounded-2xl border-2 border-solid border-dark bg-light p-8

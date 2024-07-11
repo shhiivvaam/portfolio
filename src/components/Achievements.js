@@ -56,13 +56,13 @@ const Achievements = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        info="Ranked top among5000 participants in fourcoding competitions-Coding Ninjas"
+                        info="Ranked top among 5000 participants in four coding competitions - Coding Ninjas"
                     />
                     <Details
-                        info="Secured first place among200participants–CodeNHunt-2.0,GLAUniversity"
+                        info="Secured first place among 200 participants - CodeNHunt - 2.0, GLAUniversity"
                     />
                     <Details
-                        info="Won TechnicalProject Presentation –IBM,GLAUniversity"
+                        info="Won Technical Project Presentation - IBM, GLA University"
                     />
                     <Details
                         info="Finalists in National Hackathon - Flipkart Grid 5.0"

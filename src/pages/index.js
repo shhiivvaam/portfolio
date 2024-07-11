@@ -39,7 +39,7 @@ export default function Home() {
               {/* <AnimatedText text="MERN Dev | Flutter | Data Analytics | Java/python/C++"
                 className='my-5 text-base font-semibold md:text-sm sm:text-xs'
               /> */}
-              <AnimatedText text="Web Dev | Android/iOS Dev | UI/UX | Problem Solving"
+              <AnimatedText text="Full Stack Dev | Android/iOS Dev | UI/UX | Data Analysis"
                 className='my-5 text-base font-semibold md:text-sm sm:text-xs'
               />
               {/* <p className='my-4 text-center text-base font-semibold md:text-sm sm:text-xs'> Some of the skills I   have worked with include Data Structures and Algorithms (Java), Web Development (MERN), Android Development (Flutter), Data Analysis, Databases (SQL), Linux OS (with Go), and Machine Learning (Python). And whatever skills I may lack, I make up for my determination to learn.

@@ -25,6 +25,7 @@ import todo from '../../public/images/projects/todos-app.png';
 import facebookclone from '../../public/images/projects/facebook_clone.png';
 import glass_portfolio from '../../public/images/projects/glassPortfolio.png';
 import imageGallery from '../../public/images/projects/imageGallery.png';
+import BlogSite from '../../public/images/projects/BlogSite.png';
 import StudySphere from '../../public/images/projects/StudySphere.png';
 import FarmersFriend from '../../public/images/projects/FarmersFriend.png';
 import parallexSite from '../../public/images/projects/parallexSite.png';
@@ -154,7 +155,7 @@ const projects = () => {
                                 title="Farmers Friend"
                                 img={FarmersFriend}
                                 summary="User-friendly smart agriculture advisory app aimed at providing farmers with essential information and recommendations to enhance crop yield and efficiency in resource usage. 👍✅"
-                                link="https://farmer-friends.netlify.app/dashboard"
+                                link="https://farmer-friends.netlify.app/"
                                 github="https://github.com/shhiivvaam/Farmers_Friend"
                                 type="Featured Project"
                             />
@@ -194,8 +195,8 @@ const projects = () => {
                                 title="Movies Library"
                                 img={MoviesLibrary}
                                 summary="This is a movie library web application with user authentication, movie search, and movie list creation features. Users can create public or private Playlists of their favorite movies."
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
-                                github="https://fasal-movies-library.netlify.app/"
+                                link="https://fasal-movies-library.netlify.app/"
+                                github="https://github.com/shhiivvaam/movies-library"
                                 type="Featured Project"
                             />
                         </div>
@@ -203,7 +204,7 @@ const projects = () => {
                             <FeaturedProject
                                 title="Shopping Cart"
                                 img={shoppingCart}
-                                summary=""
+                                summary="React based Shopping Cart application. 🛒🥸ℹ️"
                                 link="https://shhiivvaam.github.io/Shopping-Cart/"
                                 github="https://github.com/shhiivvaam/Shopping-Cart.git"
                                 type="Featured Project"
@@ -222,7 +223,7 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="Blog Site"
-                                img={WeatherApplication}
+                                img={BlogSite}
                                 summary="React based blog application with Google SSO and like, share, comment and Repost Features."
                                 link="https://shhiivvaam-myblogsite.netlify.app/"
                                 github="https://github.com/shhiivvaam/myblogsite"
@@ -293,13 +294,12 @@ const projects = () => {
                             <FeaturedProject
                                 title="Weather Application"
                                 img={WeatherApplication}
-                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                summary="Weather application, that helps get the right data for users both current and desired location weather update. 👍👍"
                                 link="https://shhiivvaam.github.io/Weather-Application/"
                                 github="https://github.com/shhiivvaam/Weather-Application.git"
                                 type="Featured Project"
                             />
                         </div>
-
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="AkhilyaVeda"
@@ -324,7 +324,7 @@ const projects = () => {
                             <Project
                                 title="Top Courses"
                                 img={TopCourses}
-                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                summary="React Application that offer wide range of courses that uses can take, and it also contains Filter based Searching to filter out the interested courses. 🫠🫠"
                                 link="https://shhiivvaam.github.io/Top-Courses/"
                                 github="https://github.com/shhiivvaam/Top-Courses.git"
                                 type="Featured Project"
@@ -344,7 +344,7 @@ const projects = () => {
                             <Project
                                 title="Image Gallery"
                                 img={imageGallery}
-                                // summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                // summary="This contains a simple webpage containing some images with interesting UI"
                                 link="https://shhiivvaam.github.io/Image-Gallery/"
                                 github="https://github.com/shhiivvaam/Image-Gallery.git"
                                 type="Featured Project"
@@ -385,7 +385,7 @@ const projects = () => {
                             <FeaturedProject
                                 title="Password Generator"
                                 img={passwordGenerator}
-                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                summary="JavaScript application that allows to generate some random and Strong Passwords on users choice, this application also contains options to include various constraints to make to password more stronger."
                                 link="https://shhiivvaam.github.io/Password-Generator/"
                                 github="https://github.com/shhiivvaam/Password-Generator.git"
                                 type="Featured Project"
