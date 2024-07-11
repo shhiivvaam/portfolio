@@ -13,6 +13,7 @@ import StudyNotion from '../../public/images/projects/StudyNotion.png';
 import akhilyaveda from '../../public/images/projects/akhilyaveda.png';
 import RandomGIFgenerator from '../../public/images/projects/RandomGIFgenerator.png';
 import FaceRecognition from '../../public/images/projects/FaceRecognition.png';
+import MoviesLibrary from '../../public/images/projects/MoviesLibrary.png';
 import WeatherApplication from '../../public/images/projects/weatherApplication.png';
 import TickTacToe from '../../public/images/projects/TickTacToe.png';
 import passwordGenerator from '../../public/images/projects/passwordGenerator.png';
@@ -24,11 +25,15 @@ import todo from '../../public/images/projects/todos-app.png';
 import facebookclone from '../../public/images/projects/facebook_clone.png';
 import glass_portfolio from '../../public/images/projects/glassPortfolio.png';
 import imageGallery from '../../public/images/projects/imageGallery.png';
+import StudySphere from '../../public/images/projects/StudySphere.png';
+import FarmersFriend from '../../public/images/projects/FarmersFriend.png';
 import parallexSite from '../../public/images/projects/parallexSite.png';
+import draggable_LSA from '../../public/images/projects/draggable_LSA.png';
 import profileShare from '../../public/images/projects/profileShare.png';
 import sample_portfolio from '../../public/images/projects/simple_portfolio.png';
 import TopCourses from '../../public/images/projects/TopCourses.png';
 import TourismPlanner from '../../public/images/projects/tourismPlanner.png';
+import wijungle from '../../public/images/projects/wijungle.png';
 import WindowsArea from '../../public/images/projects/WindowsArea.png';
 
 
@@ -139,38 +144,18 @@ const projects = () => {
                                 title="EdTech Platform"
                                 img={StudyNotion}
                                 summary="EdTech Application -> that serves for online courses selling platform like Udemy and Coursera, this also allows Instructors and Students to enroll themselves, learn and introduce their course respectively. 💀✅"
-                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                link="https://studynotion-master.vercel.app/"
                                 github="https://github.com/shhiivvaam/EdTech-Platform.git"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="AkhilyaVeda"
-                                img={akhilyaveda}
-                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/akhilyaVeda"
-                                github="https://github.com/AkhilyaVeda/akhilyaVeda"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Tick Tac Toe"
-                                img={TickTacToe}
-                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/Tic-Tac-Toe/"
-                                github="https://github.com/shhiivvaam/Tic-Tac-Toe.git"
-                                type="Project"
-                            />
-                        </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Profile Share"
-                                img={profileShare}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Profile-Share/"
-                                github="https://github.com/shhiivvaam/Profile-Share.git"
+                                title="Farmers Friend"
+                                img={FarmersFriend}
+                                summary="User-friendly smart agriculture advisory app aimed at providing farmers with essential information and recommendations to enhance crop yield and efficiency in resource usage. 👍✅"
+                                link="https://farmer-friends.netlify.app/dashboard"
+                                github="https://github.com/shhiivvaam/Farmers_Friend"
                                 type="Featured Project"
                             />
                         </div>
@@ -186,53 +171,82 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Robo Users"
-                                img={robo}
-                                summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
-                                The dynamics of React can be very well understood by this."
-                                link="https://shhiivvaam.github.io/robot-friends/"
-                                github="https://github.com/shhiivvaam/robot-friends.git"
+                                title="Study Sphere"
+                                img={StudySphere}
+                                summary="A React-based web app designed to assist students in discovering and enrolling in courses. It includes a Course Listing page with filters, a detailed Course Details screen, and a Student Dashboard for tracking enrolled courses."
+                                link="https://shhiivvaam.github.io/StudySphere/"
+                                github="https://github.com/shhiivvaam/StudySphere"
                                 type="Featured Project"
                             />
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Password Generator"
-                                img={passwordGenerator}
-                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
-                                link="https://shhiivvaam.github.io/Password-Generator/"
-                                github="https://github.com/shhiivvaam/Password-Generator.git"
+                                title="Wijungle"
+                                img={wijungle}
+                                summary="This project is a React-based dashboard that visualizes data from a backend server. It includes multiple graphs to represent different aspects of the data.✅🧐"
+                                link="https://wijungle.netlify.app/"
+                                github="https://github.com/shhiivvaam/wijungle"
                                 type="Featured Project"
                             />
                         </div>
-                        {/* <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Glass Portfolio"
-                                img={glass_portfolio}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Portfolio--Glass-Website/"
-                                github="https://github.com/shhiivvaam/Portfolio--Glass-Website.git"
-                                type="Featured Project"
-                            />
-                        </div> */}
-                        {/* <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title="Facebook FrontEnd Clone"
-                                img={facebookclone}
-                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
-                                link="https://shhiivvaam.github.io/Facebook-Clone/"
-                                github="https://github.com/shhiivvaam/Facebook-Clone.git"
-                                type="Featured Project"
-                            />
-                        </div> */}
                         <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Movies Library"
+                                img={MoviesLibrary}
+                                summary="This is a movie library web application with user authentication, movie search, and movie list creation features. Users can create public or private Playlists of their favorite movies."
+                                link="https://shhiivvaam.github.io/EdTech-Platform"
+                                github="https://fasal-movies-library.netlify.app/"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Shopping Cart"
+                                img={shoppingCart}
+                                summary=""
+                                link="https://shhiivvaam.github.io/Shopping-Cart/"
+                                github="https://github.com/shhiivvaam/Shopping-Cart.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Todos(Diary) App"
+                                img={todo}
+                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
+                                link="https://shhiivvaam.github.io/crud-react-app/"
+                                github="https://github.com/shhiivvaam/crud-react-app.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Blog Site"
+                                img={WeatherApplication}
+                                summary="React based blog application with Google SSO and like, share, comment and Repost Features."
+                                link="https://shhiivvaam-myblogsite.netlify.app/"
+                                github="https://github.com/shhiivvaam/myblogsite"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="Random GIF Generator"
+                                img={RandomGIFgenerator}
+                                summary="Web based Application that generates both Random and User required GIFs"
+                                link="https://shhiivvaam.github.io/Random-Gif-Generator/"
+                                github="hhttps://github.com/shhiivvaam/Random-Gif-Generator.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Behance - Portfolio"
                                 img={sample_portfolio}
                                 summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
                                 link="https://shhiivvaam.github.io/Poject-Behance/"
                                 github="https://github.com/shhiivvaam/Poject-Behance.git"
-                                type="Featured Project"
+                                type="Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
@@ -247,12 +261,32 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Todos(Diary) App"
-                                img={todo}
-                                summary="It's a simple but mighty task manager(Todos Application) with in-browser local storage. It includes update, delete, and completed features, and you can also add emojis within your tasks, adding a touch of lightness!"
-                                link="https://shhiivvaam.github.io/crud-react-app/"
-                                github="https://github.com/shhiivvaam/crud-react-app.git"
+                                title="Draggable LSA Game"
+                                img={draggable_LSA}
+                                summary="A Simple Calc Application, build over HTML, CSS AND JS. Aim is to build a game theme calc application, that finds the LSA(Lateral Surface Area) using some values chosen by the user, and tell the user, about the result using some, music and celebration img/gif."
+                                link="https://shhiivvaam.github.io/Draggable_LSA_Calc_Game/"
+                                github="https://github.com/shhiivvaam/Draggable_LSA_Calc_Game"
                                 type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Profile Share"
+                                img={profileShare}
+                                summary="This is a Simple Web-based Chat-app, which uses a Gmail login, and then the user is all set to start chatting.It needs some modification like the user profile and the user id which is not visible right now, but I will do that shortly in the meantime."
+                                link="https://shhiivvaam.github.io/Profile-Share/"
+                                github="https://github.com/shhiivvaam/Profile-Share.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title="Tick Tac Toe"
+                                img={TickTacToe}
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/Tic-Tac-Toe/"
+                                github="https://github.com/shhiivvaam/Tic-Tac-Toe.git"
+                                type="Project"
                             />
                         </div>
                         <div className='col-span-12'>
@@ -262,6 +296,17 @@ const projects = () => {
                                 // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
                                 link="https://shhiivvaam.github.io/Weather-Application/"
                                 github="https://github.com/shhiivvaam/Weather-Application.git"
+                                type="Featured Project"
+                            />
+                        </div>
+
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="AkhilyaVeda"
+                                img={akhilyaveda}
+                                summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/akhilyaVeda"
+                                github="https://github.com/AkhilyaVeda/akhilyaVeda"
                                 type="Featured Project"
                             />
                         </div>
@@ -317,6 +362,17 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
+                                title="Robo Users"
+                                img={robo}
+                                summary="This is a Web Based React App containing Robot Users where every robot has its name and its face.
+                                The dynamics of React can be very well understood by this."
+                                link="https://shhiivvaam.github.io/robot-friends/"
+                                github="https://github.com/shhiivvaam/robot-friends.git"
+                                type="Featured Project"
+                            />
+                        </div>
+                        <div className='col-span-12'>
+                            <FeaturedProject
                                 title="Ecommerce Application"
                                 img={ecommerce}
                                 // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
@@ -327,21 +383,11 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title="Shopping Cart"
-                                img={shoppingCart}
-                                summary=""
-                                link="https://shhiivvaam.github.io/Shopping-Cart/"
-                                github="https://github.com/shhiivvaam/Shopping-Cart.git"
-                                type="Featured Project"
-                            />
-                        </div>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                title="Random GIF Generator"
-                                img={RandomGIFgenerator}
-                                summary="Web based Application that generates both Random and User required GIFs"
-                                link="https://shhiivvaam.github.io/Random-Gif-Generator/"
-                                github="hhttps://github.com/shhiivvaam/Random-Gif-Generator.git"
+                                title="Password Generator"
+                                img={passwordGenerator}
+                                // summary="Patent Project, the idea is to help the doctors get their patients direct reports irrespective of their registeration through thier Identifaction cards like, Aadhaar card and also it shows both the doctor and patients can aknowledge themseleves"
+                                link="https://shhiivvaam.github.io/Password-Generator/"
+                                github="https://github.com/shhiivvaam/Password-Generator.git"
                                 type="Featured Project"
                             />
                         </div>
