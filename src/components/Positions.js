@@ -33,7 +33,7 @@ const Details = ({ type, time, place, info }) => {
     );
 }
 
-const Achievements = () => {
+const Positions = () => {
 
     const ref = useRef(null);
     const { scrollYProgress } = useScroll(
@@ -46,7 +46,7 @@ const Achievements = () => {
     return (
         <div className='my-64'>
             <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-                Achievements
+                Positions Held
             </h2>
             <div ref={ref} className='w-[75] mx-auto relative lg:w-[90%] md:w-full'>
                 <motion.div
@@ -56,16 +56,19 @@ const Achievements = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        info="Ranked top among 5000 participants in 4 coding competitions - Coding Ninjas"
+                        info="Teaching Assistant, Coding Ninjas - Resolved doubts for 230+ students"
                     />
                     <Details
-                        info="Secured first place among 200 participants – Code N Hunt - 2.0, GLA University"
+                        info="Mentor Full Stack Web Development - Guided 140+ students"
                     />
                     <Details
-                        info="Won Technical Project Presentation among 160 participants – IBM, GLA University"
+                        info="Head of Technical Department, Code Busters Club - GLA University"
                     />
                     <Details
-                        info="Finalists in National Hackathon - Flipkart Grid 5.0"
+                        info="Head of Organising Team, TEDx GLAU - GLA University"
+                    />
+                    <Details
+                        info="Coordinated 3 events and 2 awareness programs for GFG Student Chapter, Entrepreneur’s Cell and Nature’s Club, GLA University"
                     />
                 </ul>
             </div>
@@ -73,4 +76,4 @@ const Achievements = () => {
     )
 }
 
-export default Achievements;
+export default Positions;

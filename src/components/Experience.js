@@ -54,6 +54,20 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
+                        position="Backend Engineering Intern"
+                        company="Netcamp"
+                        time="April - 2022 -> July - 2022"
+                        address="KolKatta 700029 IN"
+                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    <Details
+                        position="SDE Intern"
+                        company="Whatbytes"
+                        time="Aug - 2024 -> Present"
+                        address="KolKatta 700029 IN"
+                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    {/* <Details
                         position="Android/ios and Web Developer Intern"
                         company="Netcamp Solutions Pvt. Ltd."
                         time="April - 2022 -> July - 2022"
@@ -63,7 +77,7 @@ const Experience = () => {
                     <Details
                         position="Social Work Intern"
                         company="Marpu Foundation"
-                        time="Feb = 2024 -> May - 2023"
+                        time="Feb - 2024 -> May - 2023"
                         address="Remote"
                         work="I organized a campaign aimed at providing free education to underprivileged individuals, and it successfully reached an audience of approximately 700 people. The campaign lasted for a duration of approximately 1.3 years."
                     />
@@ -80,7 +94,7 @@ const Experience = () => {
                         time="present"
                         address="[Remote] Karnataka 562125 IN"
                         work="Engaged in the development of AI-based recognition projects with a primary focus on pattern identification and object understanding."
-                    />
+                    /> */}
                 </ul>
             </div>
         </div>

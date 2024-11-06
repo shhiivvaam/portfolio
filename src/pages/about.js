@@ -14,6 +14,7 @@ import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
 import Certifications from '../components/Certifications';
 import Achievements from '../components/Achievements';
+import Positions from '../components/Positions';
 
 const About = () => {
     return (
@@ -37,10 +38,10 @@ const About = () => {
                                 - Pursuing a B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
                             </p>
                             <p className='font-medium'>
-                                - With a strong work ethic and a desire to learn, I am constantly seeking out ways to improve my skills and gain practical experience. Whether it's through internships, extracurricular activities, or networking events, I am committed to making the most of my time as a student and preparing myself for a successful career in the future.
+                                - Software Developer with over a year of experience delivering 14 successful projects across Web, Android, and Infrastructure domains. Proficient in Backend and Frontend development, skilled in Data Structures & Algorithms, Full Stack Development, Mobile App Development, UI design, Data Analytics and Machine Learning. Demonstrated ability to take projects from inception to deployment, achieving measurable improvements in user engagement, process efficiency, and cost reduction. 
                             </p>
                             <p className='my-4 font-medium'>
-                                - Some of the skills I have worked with include Full Stack Web Development,<br /> Mobile Application Development(Flutter/ React-Native), Back-End Engineering,<br /> UI designing, Data Analysis,<br /> Data Structures & Algorithms(Java) <br />and Machine Learning.<br />And whatever skills I may lack, I make up for my determination to learn.
+                                - With a strong work ethic and a desire to learn, I am constantly seeking out ways to improve my skills and gain practical experience. Whether it's through internships, extracurricular activities, or networking events, I am committed to making the most of my time as a student and preparing myself for a successful career in the future.
                             </p>
                         </div>
                         <div className='col-span-3 relative h-max w-full rounded-2xl border-2 border-solid border-dark bg-light p-8
@@ -57,7 +58,7 @@ const About = () => {
                         <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={8} duration={3000} />+
+                                    <AnimatedNumbers value={14} duration={3000} />+
                                 </span>
                                 <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm '>
                                     projects Completed
@@ -65,7 +66,7 @@ const About = () => {
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={3} duration={3000} />+
+                                    <AnimatedNumbers value={5} duration={3000} />+
                                 </span>
                                 <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm '>
                                     Working Projects
@@ -73,7 +74,7 @@ const About = () => {
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={2} duration={3000} />+
+                                    <AnimatedNumbers value={1} duration={3000} />+
                                 </span>
                                 <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm '>
                                     years of Experience
@@ -83,6 +84,7 @@ const About = () => {
                     </div>
                     <Skills />
                     <Achievements />
+                    <Positions />
                     <Experience />
                     <Education />
                     <Certifications />
