@@ -54,16 +54,23 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Backend Engineering Intern"
-                        company="Netcamp"
-                        time="April - 2022 -> July - 2022"
-                        address="KolKatta 700029 IN"
+                        position="Software Developer"
+                        company="Whatbytes"
+                        time="Aug - 2024 -> Present"
+                        address="Bangalore 560102 IN"
                         // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
                     />
                     <Details
-                        position="SDE Intern"
-                        company="Whatbytes"
-                        time="Aug - 2024 -> Present"
+                        position="Software Developer Intern"
+                        company="EVG Software Solutions"
+                        time="Feb - 2024 -> July - 2024"
+                        address="Gurgaon 122001 IN"
+                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    <Details
+                        position="Summer Intern - Backend"
+                        company="Netcamp"
+                        time="April - 2022 -> July - 2022"
                         address="KolKatta 700029 IN"
                         // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
                     />
