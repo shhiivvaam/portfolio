@@ -54,25 +54,46 @@ const Experience = () => {
                 />
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Software Developer"
-                        company="Whatbytes"
-                        time="Aug - 2024 -> Present"
+                        position="Associate Software Engineer"
+                        company="Astuto"
+                        time="March - 2025 -> Present"
                         address="Bangalore 560102 IN"
-                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    <Details
+                        position="Backend Developer"
+                        company="Whatbytes"
+                        time="Jan - 2025 -> Feb 2025"
+                        address="Bangalore 560102 IN"
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
                     />
                     <Details
                         position="Software Developer Intern"
-                        company="EVG Software Solutions"
+                        company="Whatbytes"
+                        time="Aug - 2024 -> Dec 2024"
+                        address="Bangalore 560102 IN"
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    <Details
+                        position="Software Developer Intern"
+                        company="EVG Software"
                         time="Feb - 2024 -> July - 2024"
                         address="Gurgaon 122001 IN"
-                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    />
+                    <Details
+                        position="AI Intern"
+                        company="Pantech"
+                        time="Jun - 2023 -> July - 2023"
+                        address="Remote"
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
                     />
                     <Details
                         position="Summer Intern - Backend"
                         company="Netcamp"
                         time="April - 2022 -> July - 2022"
                         address="KolKatta 700029 IN"
-                        // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
+                    // work="I collaborated with a dedicated team that prioritized the development of new features, enhancing accuracy, improving UI transition speeds, and refining the existing UI design."
                     />
                     {/* <Details
                         position="Android/ios and Web Developer Intern"

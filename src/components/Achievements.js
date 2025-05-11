@@ -59,13 +59,16 @@ const Achievements = () => {
                         info="Ranked top among 5000 participants in 4 coding competitions - Coding Ninjas"
                     />
                     <Details
-                        info="Secured first place among 200 participants – Code N Hunt - 2.0, GLA University"
+                        info="Secured first place among 200 participants - Code N Hunt - 2.0, GLA University"
                     />
                     <Details
-                        info="Won Technical Project Presentation among 160 participants – IBM, GLA University"
+                        info="Won Technical Project Presentation among 160 participants - IBM, GLA University"
                     />
                     <Details
-                        info="Finalists in National Hackathon - Flipkart Grid 5.0"
+                        info="Finalist in National Hackathon - Flipkart Grid 5.0"
+                    />
+                    <Details
+                        info="Finalist in GLATHON - GLA University"
                     />
                 </ul>
             </div>
