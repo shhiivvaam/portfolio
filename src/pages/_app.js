@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/next"
 
 // Importing Font
 import { Montserrat } from "next/font/google"
@@ -33,6 +34,7 @@ export default function App({ Component, pageProps }) {
         {/* <ParticlesBackground/> */}
         <AnimatePresence mode="wait">
           <Component key={router.asPath} {...pageProps} />
+          <Analytics />
         </AnimatePresence>
         <Footer />
       </main>
