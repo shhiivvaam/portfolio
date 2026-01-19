@@ -10,6 +10,7 @@ import { motion } from 'framer-motion'
 
 // Project Pics 
 import StudyNotion from '../../public/images/projects/StudyNotion.png';
+import newsbite from '../../public/images/projects/newsbite.png';
 import akhilyaveda from '../../public/images/projects/akhilyaveda.png';
 import RandomGIFgenerator from '../../public/images/projects/RandomGIFgenerator.png';
 import FaceRecognition from '../../public/images/projects/FaceRecognition.png';
@@ -140,6 +141,16 @@ const projects = () => {
                     <AnimatedText text="EXPLORE 🫣" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl' />
                     {/* <AnimatedText text="" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl' /> */}
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title="News Media Platform"
+                                img={newsbite}
+                                summary="A full in-house managed News Media Platform. Right, Updated and Verified Information Always."
+                                link="https://newsbite.in/"
+                                github="https://github.com/shhiivvaam/Newsbite.git"
+                                type="Featured Project"
+                            />
+                        </div>
                         <div className='col-span-12'>
                             <FeaturedProject
                                 title="EdTech Platform"
