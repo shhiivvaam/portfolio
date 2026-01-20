@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shhiivvaam.ambaycapital.com/sitemap.xml

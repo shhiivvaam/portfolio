@@ -27,7 +27,23 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="../../public/images/favicon/shhiivvaam-favicon-black.png" />
+        <link rel="icon" href="/images/favicon/shhiivvaam-favicon-black.png" />
+        <meta name="author" content="Shivam Kumar" />
+        <meta name="keywords" content="Shivam Kumar, Full Stack Developer, Android Developer, Portfolio, Web Development, Software Engineer" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://shhiivvaam.ambaycapital.com/" />
+        <meta property="og:title" content="Shivam Kumar | Full Stack Developer" />
+        <meta property="og:description" content="Portfolio of Shivam Kumar, a Full Stack & Mobile Developer specializing in building exceptional digital experiences." />
+        <meta property="og:image" content="/images/profile/main1.jpg" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://shhiivvaam.ambaycapital.com/" />
+        <meta property="twitter:title" content="Shivam Kumar | Full Stack Developer" />
+        <meta property="twitter:description" content="Portfolio of Shivam Kumar, a Full Stack & Mobile Developer specializing in building exceptional digital experiences." />
+        <meta property="twitter:image" content="/images/profile/main1.jpg" />
       </Head>
       <main className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen `}>
         <NavBar />
